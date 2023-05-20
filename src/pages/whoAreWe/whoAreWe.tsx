@@ -11,10 +11,10 @@ const whoAreWe = () => {
   };
 
   return (
-    <Container className=" px-4 pt-5" style={{ marginTop: '5%' }}>
+    <Container className=" px-4 pt-5" style={{ marginTop: '0%' }}>
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6">
-          <img src="https://cdn.discordapp.com/attachments/855212089295241236/1100703952124788846/Captura_de_pantalla_2023-04-26_024402.png" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
+          <img src="https://media.discordapp.net/attachments/855212089295241236/1109499398578241566/WhatsApp_Image_2023-05-20_at_9.13.46_AM.jpeg?width=503&height=671" className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" />
         </div>
         <div className="col-lg-6">
           <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 cursive cafe">Elder Lucas</h1>

@@ -19,6 +19,11 @@ import './App.css';
 
 const App = () => (
   <Router>
+    <Container fluid className="marquee">
+    <p className="marquee-text">
+      Elder Austin Lucas Vélez - 0900-23-23630
+    </p>
+  </Container>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navbar className="navbar navbar-dark" expand="lg">
           <Navbar.Brand className="cursive" as={Link} to="/">Lucafe</Navbar.Brand>
