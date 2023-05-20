@@ -1,14 +1,20 @@
 import React from 'react'
 import { Button, Container } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 const home = () => {
+  const navigate = useNavigate()
+  const gotoContact = () => {
+    navigate('/contactenos')
+  };
+
   return (
     <div className="px-4 pt-5 my-5 text-center">
-      <h1 className="display-4 fw-bold text-body-emphasis cursive">Lucafe</h1>
+      <h1 className="display-4 fw-bold text-body-emphasis cursive cafe">Lucafe</h1>
       <Container className="col-lg-6 mx-auto">
         <p className="lead mb-4">
 Lucafe es un lugar encantador con un ambiente acogedor y espacioso. Ofrecemos una amplia gama de deliciosos platillos y bebidas para todos los gustos. Nuestro equipo brinda una atención impecable y nuestra decoración exquisita crea un ambiente acogedor. ¡Ven a Lucafe y déjate seducir por una experiencia gastronómica inolvidable!</p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <Button variant="primary" size="lg" className="px-4 me-sm-3 primary">
+        <Button variant="primary" size="lg" className="px-4 me-sm-3 primary" onClick={ gotoContact }>
           Donde encontrarnos
         </Button>
           <Button variant="outline-secondary" size="lg" className="px-4">Deja tus comentarios</Button>

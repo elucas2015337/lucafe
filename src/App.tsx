@@ -25,7 +25,7 @@ const App = () => (
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link as={Link} to="/quienes-somos">Quienes Somos?</Nav.Link>
+              <Nav.Link as={Link} to="/quienes-somos">Quienes Somos</Nav.Link>
               <Nav.Link as={Link} to="/mision-y-vision">Misión y Visión</Nav.Link>
               <Nav.Link as={Link} to="/nuestros-productos">Nuestros Productos</Nav.Link>
               <Nav.Link as={Link} to="/nuestros-proveedores">Nuestros Proveedores</Nav.Link>
