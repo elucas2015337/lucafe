@@ -1,0 +1,17 @@
+.hero-section {
+    padding: 100px 0;
+    color: #6F4E37;
+  }
+  
+  .hero-content {
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+  }
